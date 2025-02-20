@@ -10,4 +10,4 @@ RUN chmod +x /download_DroneCrowd_test.sh
 COPY ./scripts/download_SeaDronesSee.sh /download_SeaDronesSee.sh
 RUN chmod +x /download_SeaDronesSee.sh 
 
-CMD ["/bin/sh", "-c", "/download_DroneCrowd_test.sh && /download_SeaDronesSee.sh"]
+CMD ["/bin/sh", "-c", "/download_DroneCrowd_test.sh && /download_SeaDronesSee.sh && exec /bin/bash"]
