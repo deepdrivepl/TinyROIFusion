@@ -1,4 +1,4 @@
-OUT_DIR="data/DroneCrowd"
+OUT_DIR="TinyROITrack/data/DroneCrowd"
 
 mkdir -p $OUT_DIR
 
